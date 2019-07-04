@@ -92,9 +92,8 @@
         ></v-img>
 
         <v-card-actions>
-          <v-btn @click="dialog=true" class="warning">Canjear</v-btn>
           <v-spacer></v-spacer>
-          <h3>Vale Sorteo 50€(1coin)</h3>
+          <v-btn @click="dialog=true" class="warning">1c</v-btn>
         </v-card-actions>
       </v-card>
     </v-flex>
