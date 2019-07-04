@@ -166,8 +166,12 @@ export default {
                 }else if(user1 > user2){
                   console.log("pierdes")
                   db.collection("Usuarios").doc(user.id).update({coin: user.coin + 1})
+                  this.snackbar= true
+                  this.mensaje= 'tu pierde, el otro usuario gana 1 monedita' ///coins=coins+1
                 }else{
                   console.log("empate")
+                  this.snackbar= true
+                  this.mensaje= 'empate'
                 }
     },
     geoFindMe() {

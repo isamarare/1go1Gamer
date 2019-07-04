@@ -99,7 +99,7 @@ import {db} from '../firebase'
          email: this.email,
          password: this. password,
          gameName: this.gameName,
-         coin: '0'
+         coin: 0
       })
       .then(function() {
           console.log("Document successfully written!");
