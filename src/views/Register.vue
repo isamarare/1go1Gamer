@@ -98,7 +98,8 @@ import {db} from '../firebase'
       db.collection("Usuarios").add({
          email: this.email,
          password: this. password,
-         gameName: this.gameName
+         gameName: this.gameName,
+         coins: '0'
       })
       .then(function() {
           console.log("Document successfully written!");
