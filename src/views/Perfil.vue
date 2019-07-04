@@ -214,17 +214,17 @@ export default {
       const key = "RGAPI-e6a6db77-33b9-4d43-a1f9-ae0a1c0b041c";
       let s_toSearch = this.nickName;
       const URL =
-        "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" +
+        "RGAPI-262684ea-1338-4946-86f4-8de18ea2162d" +
         s_toSearch +
         "?api_key=" +
         key;
   
       const url2 =
-        "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/aH6ngmjzV7N-iLJBbTqjVzeUhCo61sy9IItWJtKdxkbT3SA?api_key=RGAPI-e6a6db77-33b9-4d43-a1f9-ae0a1c0b041c";
+        "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/aH6ngmjzV7N-iLJBbTqjVzeUhCo61sy9IItWJtKdxkbT3SA?api_key=RGAPI-262684ea-1338-4946-86f4-8de18ea2162d";
       
 
       const url3 =
-        "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/u729ArFcv11zIQNMvxUw95N-E2U4akelv-biM14h1XHHZWE?api_key=RGAPI-e6a6db77-33b9-4d43-a1f9-ae0a1c0b041c";
+        "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/u729ArFcv11zIQNMvxUw95N-E2U4akelv-biM14h1XHHZWE?api_key=RGAPI-262684ea-1338-4946-86f4-8de18ea2162d";
       
       axios.get(URL).then(res => {
         console.log(res.data);
