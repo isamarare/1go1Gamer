@@ -211,10 +211,10 @@ export default {
     },
 
     getLol() {
-      const key = "RGAPI-e6a6db77-33b9-4d43-a1f9-ae0a1c0b041c";
+      const key = "RGAPI-262684ea-1338-4946-86f4-8de18ea2162d";
       let s_toSearch = this.nickName;
       const URL =
-        "RGAPI-262684ea-1338-4946-86f4-8de18ea2162d" +
+        "https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" +
         s_toSearch +
         "?api_key=" +
         key;
