@@ -220,11 +220,11 @@ export default {
         key;
   
       const url2 =
-        "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/aH6ngmjzV7N-iLJBbTqjVzeUhCo61sy9IItWJtKdxkbT3SA?api_key=RGAPI-f4ae92b6-1afc-42bb-845d-a8b0c732674b";
+        "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/aH6ngmjzV7N-iLJBbTqjVzeUhCo61sy9IItWJtKdxkbT3SA?api_key=RGAPI-e6a6db77-33b9-4d43-a1f9-ae0a1c0b041c";
       
 
       const url3 =
-        "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/u729ArFcv11zIQNMvxUw95N-E2U4akelv-biM14h1XHHZWE?api_key=RGAPI-f4ae92b6-1afc-42bb-845d-a8b0c732674b";
+        "https://euw1.api.riotgames.com/lol/league/v4/entries/by-summoner/u729ArFcv11zIQNMvxUw95N-E2U4akelv-biM14h1XHHZWE?api_key=RGAPI-e6a6db77-33b9-4d43-a1f9-ae0a1c0b041c";
       
       axios.get(URL).then(res => {
         console.log(res.data);
