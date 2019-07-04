@@ -40,7 +40,7 @@
       <v-layout column>
         <v-list-tile avatar tag="div">
           <v-list-tile-avatar>
-            <v-btn icon block :to="isAdmin?{name: 'perfil'}:{name: 'home'}">
+            <v-btn v-if="logged && !isAdmin" icon :to="{name: 'perfil'}">
               <img
                 src="./assets/1vs1black.png"
                 style="border: 2px solid red;"
@@ -53,7 +53,7 @@
         </v-list-tile>
         <v-divider color="grey"></v-divider>
         <v-flex>
-          <v-btn v-if="logged" color="black" class="white--text" block :to="{name: 'admin'}">Admin</v-btn>
+          <v-btn v-if="logged && isAdmin" color="black" class="white--text" block :to="{name: 'admin'}">Admin</v-btn>
           <v-btn color="black" class="white--text" block :to="{name: 'home'}">Home</v-btn>
           <v-btn color="black" class="white--text" block :to="{name: 'noticias'}">Noticias</v-btn>
           <v-btn color="black" class="white--text" block :to="{name: 'juegos'}">Premios</v-btn>
