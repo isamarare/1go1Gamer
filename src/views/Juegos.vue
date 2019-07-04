@@ -15,9 +15,9 @@
           aspect-ratio="1.5"
         ></v-img>
         <v-card-actions>
-          <v-btn @click="dialog=true" class="warning">Canjear</v-btn>
+          <v-btn @click="dialog=true" class="warning">Canjear(10 coins)</v-btn>
           <v-spacer></v-spacer>
-          <h3>750RP- (10coins)</h3>
+          
         </v-card-actions>
       </v-card>
     </v-flex>
