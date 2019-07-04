@@ -15,7 +15,7 @@
           aspect-ratio="1.5"
         ></v-img>
         <v-card-actions>
-          <v-btn @click="dialog=true" class="warning">Canjear(10 coins)</v-btn>
+          <v-btn @click="dialog=true" class="warning">10c</v-btn>
           <v-spacer></v-spacer>
           
         </v-card-actions>
@@ -30,9 +30,9 @@
         ></v-img>
 
         <v-card-actions>
-          <v-btn @click="dialog=true" class="warning">Canjear</v-btn>
+          <v-btn @click="dialog=true" class="warning">25c</v-btn>
           <v-spacer></v-spacer>
-          <h3>1650RP- (25coins)</h3>
+         
         </v-card-actions>
       </v-card>
     </v-flex>
@@ -45,9 +45,9 @@
         ></v-img>
 
         <v-card-actions>
-          <v-btn @click="dialog=true" class="warning">Canjear</v-btn>
+          <v-btn @click="dialog=true" class="warning">5c</v-btn>
           <v-spacer></v-spacer>
-          <h3>250RP- (5coins)</h3>
+          
         </v-card-actions>
       </v-card>
     </v-flex>
@@ -60,9 +60,9 @@
         ></v-img>
 
         <v-card-actions>
-          <v-btn @click="dialog=true" class="warning">Canjear</v-btn>
+          <v-btn @click="dialog=true" class="warning">1c</v-btn>
           <v-spacer></v-spacer>
-          <h3>Vale Sorteo 50€(1coin)</h3>
+         
         </v-card-actions>
       </v-card>
     </v-flex>
