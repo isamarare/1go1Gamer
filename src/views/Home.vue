@@ -3,7 +3,7 @@
   <v-layout row wrap justify-center>
     <v-flex   xs12  sm8 md6  >
       <v-card class="hovercard backg">
-        <router-link :to="{name: 'noticias'}"><v-img src="http://i68.tinypic.com/2j35l47.png"
+        <router-link :to="{name: 'noticias'}"><v-img src="http://fox-grove.com/wp-content/uploads/2014/12/black-polygon-with-red-edges-abstract-hd-wallpaper-1920x1080.jpg"
           aspect-ratio="1.9">
        
           </v-img>
