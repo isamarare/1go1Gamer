@@ -14,7 +14,7 @@
 
     <v-flex  xs12  sm8 md6 >
       <v-card class="hovercard backg">
-        <router-link :to="{name: 'juegos'}"><v-img src="http://i64.tinypic.com/33wo9yp.png"
+        <router-link :to="{name: 'juegos'}"><v-img src="http://fox-grove.com/wp-content/uploads/2014/12/black-polygon-with-red-edges-abstract-hd-wallpaper-1920x1080.jpg"
           aspect-ratio="1.9">
        
           </v-img>
@@ -25,7 +25,7 @@
 
     <v-flex  xs12  sm8 md6  >
       <v-card class="hovercard backg">
-        <router-link :to="{name: 'about'}"><v-img src="http://i68.tinypic.com/i2oklz.png"
+        <router-link :to="{name: 'about'}"><v-img src="http://fox-grove.com/wp-content/uploads/2014/12/black-polygon-with-red-edges-abstract-hd-wallpaper-1920x1080.jpg"
           aspect-ratio="1.9">
         
           </v-img>
@@ -36,7 +36,7 @@
 
     <v-flex  xs12  sm8 md6 >
       <v-card class="hovercard backg">
-        <router-link :to="{name: 'register'}"><v-img src="http://i66.tinypic.com/2ewfyc9.png"
+        <router-link :to="{name: 'register'}"><v-img src="http://fox-grove.com/wp-content/uploads/2014/12/black-polygon-with-red-edges-abstract-hd-wallpaper-1920x1080.jpg"
           aspect-ratio="1.9">
      
           </v-img>
