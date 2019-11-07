@@ -11,7 +11,7 @@
        <v-flex xs6 sm4 >
       <v-card id="borde">
         <v-img
-          src="http://i68.tinypic.com/2dk0015.png"
+          src="https://i.pinimg.com/originals/f2/d8/5c/f2d85c0ead75501fe94c08675d3f61a3.jpg"
           aspect-ratio="1.5"
         ></v-img>
         <v-card-actions>
@@ -25,7 +25,7 @@
     <v-flex xs6 sm4 >
       <v-card id="borde">
         <v-img
-          src="http://i68.tinypic.com/rvks1u.png"
+          src="https://i.pinimg.com/originals/f2/d8/5c/f2d85c0ead75501fe94c08675d3f61a3.jpg"
           aspect-ratio="1.5"
         ></v-img>
 
@@ -40,7 +40,7 @@
     <v-flex xs6 sm4 >
       <v-card id="borde">
         <v-img
-          src="http://i65.tinypic.com/5zdrgl.jpg"
+          src="https://i.pinimg.com/originals/f2/d8/5c/f2d85c0ead75501fe94c08675d3f61a3.jpg"
           aspect-ratio="1.5"
         ></v-img>
 
@@ -55,7 +55,7 @@
     <v-flex xs6 sm4 >
       <v-card id="borde">
         <v-img
-          src="http://i65.tinypic.com/aelfgi.png"
+          src="https://i.pinimg.com/originals/f2/d8/5c/f2d85c0ead75501fe94c08675d3f61a3.jpg"
           aspect-ratio="1.5"
         ></v-img>
 
@@ -71,7 +71,7 @@
      <v-flex xs6 sm4 >
       <v-card id="borde">
         <v-img
-          src="http://i65.tinypic.com/aelfgi.png"
+          src="https://i.pinimg.com/originals/f2/d8/5c/f2d85c0ead75501fe94c08675d3f61a3.jpg"
           aspect-ratio="1.5"
         ></v-img>
 
@@ -87,7 +87,7 @@
      <v-flex xs6 sm4 >
       <v-card id="borde">
         <v-img
-          src="http://i65.tinypic.com/aelfgi.png"
+          src="https://i.pinimg.com/originals/f2/d8/5c/f2d85c0ead75501fe94c08675d3f61a3.jpg"
           aspect-ratio="1.5"
         ></v-img>
 
