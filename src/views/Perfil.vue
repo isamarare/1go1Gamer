@@ -4,7 +4,7 @@
       <v-flex class="secondary" xs12 sm6 id="textArea">
         <material-card class="v-card-profile">
           <v-avatar slot="offset" class="mx-auto d-block" size="150">
-            <img src="http://i63.tinypic.com/2eqgpll.png" style="border: 2px solid red;" />
+            <img src="../assets/1vs1black.png" style="border: 2px solid red;" />
           </v-avatar>
           <v-card-text class="text-xs-center">
             <h2 class="card-title text-xs-center">{{email}} ({{nickName}})</h2>
